@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+main img{
+    position: relative;
+    width: 250px;
+}
+.parent{
+    display: grid;
+    margin: 20px;
+    grid-template-columns:50% 51%;
+    grid-auto-rows: 25% 25%;
+    color: white;
+    grid-row-gap:20px;
+    grid-column-gap: 20px;
+}
+.parent .child{
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+.parent .child:hover{
+    border: 5px solid white;
+}
+.parent  :nth-child(even){
+   background-color: rgb(67, 61, 73);
+}
+.parent  :nth-child(odd){
+    background-color:  rgb(67, 61, 73);
+}
+.parent .child .hea1 i {
+    width: 3vw;
+    font-size: 3vw;
+}
+.parent .child .hea1 .links a{
+    text-decoration:none ;
+    position: relative;
+    margin: 1.0vw 2.0vw;
+    margin: right 15px;;
+    top: 40px;
+    border: 0.1vw solid white;
+    border-radius: 10px;
+    padding: 0.5vw;
+    font-size: 15px;
+    background-color:white;
+    color: black;
+}
+.parent .child .hea1 .links a:hover{
+    background-color:black;
+    color: white;
+}
+
+.parent .child .hea2 i {
+    width: 3vw;
+    font-size: 3rem;
+}
+.parent .child .hea2 .links a{
+    text-decoration:none ;
+    position: relative;
+    margin: 1.0vw 2.0vw;
+    margin: right 15px;;
+    top: 40px;
+    border: 0.1vw solid white;
+    border-radius: 10px;
+    padding: 0.5vw;
+    font-size: 15px;
+    background-color:white;
+    color: black;
+}
+.parent .child .hea2 .links a:hover{
+    background-color:black;
+    color: white;
+}
+.parent .child .hea3 i {
+    width: 3vw;
+    font-size: 3rem;
+}
+.parent .child .hea3 .links a{
+    text-decoration:none ;
+    position: relative;
+    margin: 1.0vw 2.0vw;
+    margin: right 15px;;
+    top: 40px;
+    border: 0.1vw solid white;
+    border-radius: 10px;
+    padding: 0.5vw;
+    font-size: 15px;
+    background-color:white;
+    color: black;
+}
+.parent .child .hea3 .links a:hover{
+    background-color:black;
+    color: white;
+}
+.parent .child .hea4 i {
+    width: 3vw;
+    font-size: 3rem;
+}
+.parent .child .hea4 .links a{
+    text-decoration:none ;
+    position: relative;
+    margin: 1.0vw 2.0vw;
+    margin: right 15px;;
+    top: 40px;
+    border: 0.1vw solid white;
+    border-radius: 10px;
+    padding: 0.5vw;
+    font-size: 15px;
+    background-color:white;
+    color: black;
+}
+.parent .child .hea4 .links a:hover{
+    background-color:black;
+    color: white;
+}
+.parent .child .hea5 i {
+    width: 3vw;
+    font-size:3rem;
+}
+.parent .child .hea5 .links a{
+    text-decoration:none ;
+    position: relative;
+    margin: 1.0vw 2.0vw;
+    margin: right 15px;;
+    top: 40px;
+    border: 0.1vw solid white;
+    border-radius: 10px;
+    padding: 0.5vw;
+    font-size: 15px;
+    background-color:white;
+    color: black;
+}
+.parent .child .hea5 .links a:hover{
+    background-color:black;
+    color: white;
+}
+.parent .child .hea6 i {
+    width: 3vw;
+    font-size: 3rem;
+}
+.parent .child .hea6 .links a{
+    text-decoration:none ;
+    position: relative;
+    margin: 1.0vw 2.0vw;
+    margin: right 15px;;
+    top: 40px;
+    border: 0.1vw solid white;
+    border-radius: 10px;
+    padding: 0.5vw;
+    font-size: 15px;
+    background-color:white;
+    color: black;
+}
+.parent .child .hea6 .links a:hover{
+    background-color:black;
+    color: white;
+}
+.parent .child .hea7 i {
+    width: 3vw;
+    font-size: 3rem;
+}
+.parent .child .hea7 .links a{
+    text-decoration:none ;
+    position: relative;
+    margin: 1.0vw 2.0vw;
+    margin: right 15px;;
+    top: 40px;
+    border: 0.1vw solid white;
+    border-radius: 10px;
+    padding: 0.5vw;
+    font-size: 15px;
+    background-color:white;
+    color: black;
+}
+.parent .child .hea7 .links a:hover{
+    background-color:black;
+    color: white;
+}
+.parent .child .hea8 i {
+    width: 3vw;
+    font-size: 3rem;
+}
+.parent .child .hea8 .links a{
+    text-decoration:none ;
+    position: relative;
+    margin: 1.0vw 2.0vw;
+    margin: right 15px;;
+    top: 40px;
+    border: 0.1vw solid white;
+    border-radius: 10px;
+    padding: 0.5vw;
+    font-size: 15px;
+    background-color:white;
+    color: black;
+}
+.parent .child .hea8 .links a:hover{
+    background-color:black;
+    color: white;
+}
+.parent .child .hea9 i {
+    width: 3vw;
+    font-size: 3rem;
+}
+.parent .child .hea9 .links a{
+    text-decoration:none ;
+    position: relative;
+    margin: 1.0vw 2.0vw;
+    margin: right 15px;;
+    top: 40px;
+    border: 0.1vw solid white;
+    border-radius: 10px;
+    padding: 0.5vw;
+    font-size: 15px;
+    background-color:white;
+    color: black;
+}
+.parent .child .hea9 .links a:hover{
+    background-color:black;
+    color: white;
+}
+.parent .child .hea10 i {
+    width: 3vw;
+    font-size: 3rem;
+}
+.parent .child .hea10 .links a{
+    text-decoration:none ;
+    position: relative;
+    margin: 1.0vw 2.0vw;
+    margin: right 15px;;
+    top: 40px;
+    border: 0.1vw solid white;
+    border-radius: 10px;
+    padding: 0.5vw;
+    font-size: 15px;
+    background-color:white;
+    color: black;
+}
+.parent .child .hea10 .links a:hover{
+    background-color:black;
+    color: white;
+}
+
+
+
